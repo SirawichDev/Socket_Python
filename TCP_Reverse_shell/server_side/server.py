@@ -8,7 +8,7 @@ def con():
     print ('Got Connect From :'), addr
 
     while True:
-        command = input("CMD >> ")
+        command =input("CMD >> ")
 
         if 'terminate' in command:
             conn.send('terminate')
